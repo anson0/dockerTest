@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -
-        name: johnjohnx
+        name: xxxxxx
         uses: docker/login-action@v3
         with:
-          username: ${{ vars.DOCKER_USERNAME }}
+          username: johnjohnx
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       -
         name: Set up Docker Buildx
