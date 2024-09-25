@@ -13,7 +13,7 @@ jobs:
         name: xxxxxx
         uses: docker/login-action@v3
         with:
-          username: ${{ secrets.DOCKERREPOTESTVARIABLE }}
+          username: ${{ vars.DOCKERREPOTESTVARIABLE }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       -
         name: Set up Docker Buildx
